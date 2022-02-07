@@ -6,7 +6,7 @@ You can get the information by entering username and repository name
 
 Open the terminal and go to the directory you want to pull the app.
 
-### git pull https://github.com/nikolagg99/open-issues-project.git
+### git clone https://github.com/nikolagg99/open-issues-project.git
 
 Go to the directory of the project.
 

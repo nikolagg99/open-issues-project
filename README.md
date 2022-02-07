@@ -4,7 +4,7 @@ You can get the information by entering username and repository name
 
 <div>
   <p align="center">
-    Tech Stack:
+    Tech stack for the application:
   </p>
 
   <div>

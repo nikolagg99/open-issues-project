@@ -1,0 +1,83 @@
+$border-color: rgb(247, 248, 255);
+$input-color: rgb(247, 248, 255);
+
+.list-container {
+    width: 100%;
+}
+
+.header {
+    text-align: center;
+    text-decoration: underline;
+    color: grey;
+}
+
+.list-item {
+    width: 55%;
+    margin: auto;
+    margin-top: 3%;
+    border: 3px solid $border-color;
+    border-radius: 10px;
+}
+
+.title-container {
+    width: 100%;
+    background-color: rgba(109, 122, 126, 0.5);
+    color: $input-color;
+    padding: 1%;
+    border-radius: 7px;
+    box-sizing: border-box;
+    text-align: center;
+    border-bottom: 2px dotted $border-color;
+    overflow-x: auto;
+}
+
+.title-h2 {
+    font-size: 2.5vh;
+}
+
+.title-h2:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.user-info-h2 {
+    text-align: center;
+    color: grey;
+    text-decoration: underline;
+}
+
+.button-clear-container {
+    display: flex;
+    justify-content: center;
+}
+
+.clear-info-button {
+    width: 40%;
+    padding: 0.5%;
+    border-radius: 10px;
+    border: 2px solid grey;
+}
+
+.asignee-container {
+    display: flex;
+    justify-content: center;
+    color: grey;
+}
+
+.missing-assignee-alert {
+    color: red;
+    font-size: 0.8rem;
+}
+
+.avatar-image {
+    width: 15%;
+    border-radius: 50%;
+    margin: 2%;
+}
+
+.asignee-container h3 {
+    margin-left: 3%;
+    padding-top: 2%;
+    width: 50%;
+    float: right;
+}

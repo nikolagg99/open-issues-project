@@ -1,0 +1,67 @@
+$border-color: rgb(247, 248, 255);
+
+.close-commnets-button {
+    width: 80%;
+    background-color: rgb(220, 220, 221);
+    margin-top: 2%;
+    padding: 1%;
+    border-radius: 10px;
+}
+
+.comments-container {
+    width: 70%;
+    height: 85%;
+    background-color: rgba(109, 122, 126, 0.9);
+    border-radius: 10px;
+    border: 3px solid $border-color;
+    text-align: center;
+    margin-left: 15%;
+    margin-top: 5%;
+    position: absolute;
+    overflow-y: auto;
+}
+
+p {
+    color: white;
+}
+
+.single-comment {
+    width: 94%;
+    height: 18%;
+    display: flex;
+    border: 3px solid $border-color;
+    margin: 3%;
+    border-radius: 10px;
+}
+
+.avatar-image-comment {
+    width: 29%;
+    border-radius: 50%;
+    margin: 2%;
+}
+
+.comment-items {
+    width: 100%;
+}
+
+.asignee {
+    margin: 1%;
+    width: 35%;
+    border-right: 3px dotted $border-color;
+}
+
+.comment {
+    display: flex;
+    justify-content: center;
+    overflow-y: auto;
+}
+
+.comment-items h4{
+    margin: 1%;
+    color: $border-color;
+}
+
+.comment-text {
+    color: $border-color;
+    font-size: 1.2rem;
+}
